@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Segoe UI";
+    src: "/fonts/SegoeUI.ttf";
+}
+
+@theme {
+    --font-segoeui: "Segoe UI", Arial, sans-serif;
+}
+
+@layer {
+    body {
+        @apply bg-[url('/img/background.jpg')] bg-no-repeat bg-cover bg-center;
+    }
+}
